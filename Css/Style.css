@@ -1,0 +1,35 @@
+.lapis{
+	border: 1px solid black;
+}
+
+/*Geral*/
+.conteudo{
+	display: inline-block;
+	max-width: 400px;
+	min-width: 210px;
+	width: 100%;
+	font-family: "Roboto", sans-serif;
+}
+.conteudoTwo{
+	display: inline-block;
+	max-width: 900px;
+	min-width: 455px;
+	width: 100%;
+	font-family: "Roboto", sans-serif;
+}
+.leftConteudo{
+	float: left;
+}
+.rightConteudo{
+	float: right;
+}
+
+/*Informção pessoal*/
+.photo{
+	max-height: 300px;
+	max-width: 400px;
+	min-height: 120px;
+	min-width: 120px;
+	height: 100%;
+	width: 100%;
+}
