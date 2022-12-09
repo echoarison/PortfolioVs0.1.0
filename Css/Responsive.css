@@ -1,1 +1,52 @@
 /*Responsive*/
+
+/**
+*
+* 
+* Change of screen
+* 
+* */
+@media screen and (max-width: 1320px){
+
+	/*.rightConteudo, .leftConteudo{
+		float: none !important;
+	}*/
+
+	/*.conteudo, .conteudoTwo{
+		display: block;
+	}*/
+	.conteudo{
+
+		width: 70% !important;
+
+	}
+	.conteudoTwo{
+
+		width: 75% !important;
+
+	}
+
+}
+
+@media screen and (max-width: 1200px){
+	.conteudo, .conteudoTwo{
+		display: block;
+	}
+
+	.rightConteudo, .leftConteudo{
+		float: none !important;
+	}
+
+	.conteudo{
+
+		width: 100% !important;
+
+	}
+	.conteudoTwo{
+		max-width: 1200px;
+		min-width: 600px;
+		width: 100% !important;
+
+	}
+}
+
