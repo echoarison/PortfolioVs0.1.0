@@ -8,21 +8,14 @@
 * */
 @media screen and (max-width: 1320px){
 
-	/*.rightConteudo, .leftConteudo{
-		float: none !important;
-	}*/
-
-	/*.conteudo, .conteudoTwo{
-		display: block;
-	}*/
 	.conteudo{
 
-		width: 70% !important;
+		width: 60% !important;
 
 	}
 	.conteudoTwo{
 
-		width: 75% !important;
+		width: 65% !important;
 
 	}
 
@@ -41,8 +34,22 @@
 		max-width: 1200px;
 		min-width: 600px;
 		width: 100% !important;
-
 	}
+
+	.respContPessoal{
+		max-width: 380px !important;
+		min-width: 320px !important;
+		width: 70% !important;
+		float: left;
+	}
+
+	.respContSkill{
+		max-width: 770px !important;
+		min-width: 320px !important;
+		width: 85% !important;
+		float: left;
+	}
+
 	.conteudoTwo{
 		max-width: 1200px;
 		min-width: 600px;
@@ -51,3 +58,48 @@
 	}
 }
 
+@media screen and (max-width: 1174px){
+
+	.respContPessoal{
+		width: 30% !important;
+	}
+
+	.respContSkill{
+		width: 60% !important;
+	}
+
+}
+
+@media screen and (max-width: 875px){
+
+	.respContPessoal{
+		width: 28% !important;
+	}
+
+	.respContSkill{
+		width: 54% !important;
+	}
+
+}
+
+@media screen and (max-width: 760px){
+
+	.respContPessoal, .respContSkill{
+
+		float: none;
+
+	}
+
+	.respContPessoal{
+		max-height: 500px !important;
+		max-width: 760px !important;
+		width: 100% !important;
+    	text-align: center;
+	}
+
+	.respContSkill{
+		width: 100% !important;
+	}
+
+
+}
