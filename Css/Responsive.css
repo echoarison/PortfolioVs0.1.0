@@ -59,6 +59,18 @@
 }
 
 @media screen and (max-width: 1174px){
+	.conteudo{
+		max-width: 1174px;
+		min-width: 600px;
+		width: 100% !important;
+	}
+
+	.conteudoTwo{
+		max-width: 1174px;
+		min-width: 600px;
+		width: 100% !important;
+
+	}
 
 	.respContPessoal{
 		width: 30% !important;
@@ -72,6 +84,19 @@
 
 @media screen and (max-width: 875px){
 
+	.conteudo{
+		max-width: 875px;
+		min-width: 320px;
+		width: 90% !important;
+	}
+
+	.conteudoTwo{
+		max-width: 875px;
+		min-width: 320px;
+		width: 90% !important;
+
+	}
+
 	.respContPessoal{
 		width: 28% !important;
 	}
@@ -82,7 +107,20 @@
 
 }
 
-@media screen and (max-width: 760px){
+@media screen and (max-width: 786px){
+
+	.conteudo{
+		max-width: 776px;
+		min-width: 320px;
+		width: 90% !important;
+	}
+
+	.conteudoTwo{
+		max-width: 776px;
+		min-width: 320px;
+		width: 90% !important;
+
+	}
 
 	.respContPessoal, .respContSkill{
 
