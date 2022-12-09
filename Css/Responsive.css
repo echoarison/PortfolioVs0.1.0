@@ -39,14 +39,14 @@
 	.respContPessoal{
 		max-width: 380px !important;
 		min-width: 320px !important;
-		width: 70% !important;
+		width: 30% !important;
 		float: left;
 	}
 
 	.respContSkill{
 		max-width: 770px !important;
 		min-width: 320px !important;
-		width: 85% !important;
+		width: 60% !important;
 		float: left;
 	}
 
@@ -77,7 +77,7 @@
 	}
 
 	.respContSkill{
-		width: 60% !important;
+		width: 55% !important;
 	}
 
 }
@@ -102,7 +102,7 @@
 	}
 
 	.respContSkill{
-		width: 54% !important;
+		width: 46% !important;
 	}
 
 }

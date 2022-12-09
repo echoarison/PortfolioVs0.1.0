@@ -2,6 +2,11 @@
 	border: 1px solid black;
 }
 
+/*fix bug test*/
+body{
+	overflow-x: hidden;
+}
+
 /*Geral*/
 .conteudo{
 	display: inline-block;
