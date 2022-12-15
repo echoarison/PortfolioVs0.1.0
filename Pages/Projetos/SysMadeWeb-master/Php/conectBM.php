@@ -1,8 +1,8 @@
 <?php
-    $server = "127.0.0.1";
-    $userDb = "pcosta";
-    $passDb = "D@10+XLqlM";
-    $bancoDb = "bancoMBTest";
+    $server = "none";
+    $userDb = "none";
+    $passDb = "none";
+    $bancoDb = "none";
 
     $conn = new mysqli($server, $userDb, $passDb, $bancoDb);
 
