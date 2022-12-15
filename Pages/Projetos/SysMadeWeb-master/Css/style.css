@@ -1,0 +1,640 @@
+.bg-halfLight {
+    background-color: #dcdfe1;
+}
+
+.teste {
+    border: 1px solid #000;
+}
+
+/*menu responsivo*/
+
+.menuRespBtn {
+    max-height: 55px;
+    max-width: 55px;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../Img/Icones/menu.png);
+    background-color: #fff;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    display: none;
+    visibility: hidden;
+}
+
+.menuRespBtn:hover {
+    background-color: #999;
+}
+
+.menuPso {
+    position: absolute;
+    top: 1.5%;
+    right: 10%;
+}
+
+.yesItens {
+    display: block;
+    visibility: visible;
+}
+
+.noItens {
+    display: block;
+    visibility: visible;
+}
+
+/*fim*/
+
+/*cabecario*/
+.cabecario {
+    max-height: 400px;
+    min-height: 140px;
+    height: 100%;
+    padding: 5%;
+    background-image: url(../Img/imagens/cabecario.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.cabecario .logoTipo {
+    background-color: rgba(209, 208, 209, 0.5);
+}
+
+.cabecario .logoTipo img {
+    max-height: 220px;
+    max-width: 240px;
+    height: 50%;
+    width: 100%;
+}
+
+.menuNavegacao {
+    width: 100%;
+    max-width: 700px;
+    margin-left: 2%;
+}
+
+.menuNavegacao ul {
+    text-align: center;
+}
+
+.login {
+    position: absolute;
+    top: 1.5%;
+    right: 1.6%;
+}
+
+.loginRespon {
+    visibility: hidden;
+}
+
+.buton {
+    text-decoration: none;
+    list-style: none;
+    background-color: aliceblue;
+}
+
+.butonActvie {
+    cursor: not-allowed !important;
+    color: white;
+    background-color: #6c757d;
+}
+
+.lenguagem {
+    height: 40px;
+    width: 55px;
+    background-image: url(../Img/Icones/alterandoALinguagem.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    box-shadow: 4px 4px 8px #000;
+}
+
+.posiLangue {
+    position: absolute;
+    top: 15.2%;
+    right: 1.6%;
+}
+
+.lenguagem:hover {
+    background-image: url(../Img/Icones/brasil.jpg);
+    box-shadow: 1px 1px 8px #fff;
+}
+
+/*fimCabecario/
+
+/*paralax*/
+.parallax {
+    background-image: url(./Img/imagens/parallax01.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    max-height: 320px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.testeFundo {
+    background-image: url(../Img/imagens/parallax01.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+/*fimParallaz*/
+
+/*comoTrabalhamos*/
+.info {
+    background-color: rgba(209, 208, 209, 0.8);
+}
+
+.infoWork {
+    max-height: 430px;
+    width: 80%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 6px #333;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.icone {
+    max-height: 180px;
+    max-width: 180px;
+    height: 48%;
+    width: 80%;
+    border: 1px solid #ddd;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../Img/Icones/approve-invoice.png);
+    background-color: rgb(255, 255, 255);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/*fimComotrabalhamos*/
+
+/*servico*/
+.tabela {
+    box-shadow: 2px 2px 6px #333;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+/*fim*/
+
+/*Contato*/
+.localidadeIframe {
+    max-height: 340px;
+    max-width: 450px;
+    height: 100vh;
+    width: 100%;
+    box-shadow: 2px 2px 6px #333;
+}
+
+.localidadeIframe iframe {
+
+    height: 100%;
+    width: 100%;
+
+}
+
+.fundoContato {
+    max-height: 340px;
+    max-width: 450px;
+    height: 100vh;
+    width: 100%;
+    box-shadow: 2px 2px 6px #333;
+    background-color: white;
+}
+
+.contato .iconeContato {
+    overflow: auto;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    border: none;
+    background-image: url(../Img/Icones/email.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.formLogin {
+    color: white;
+    background-color: rgba(2, 127, 214, 0.5);
+    box-shadow: 2px 2px 6px #333;
+    width: 90%;
+}
+
+/*fimContatoLocalização*/
+
+/*rodape*/
+.conteudo {
+    width: 85%;
+}
+
+.logo {
+    width: 80vw;
+    height: 100vh;
+    max-height: 250px;
+    max-width: 280px;
+}
+
+.membros .membrosLista {
+    list-style: none;
+    display: inline-block;
+    padding: 1%;
+    background-color: #31313b;
+    /*    color: #f6f6f6;*/
+    border-radius: 2px;
+}
+
+.membros span {
+    padding: 1%;
+    font-weight: bold;
+    background-color: #31313b;
+    color: #f6f6f6;
+    border-radius: 2px;
+}
+
+.membros li {
+    height: 30px;
+    width: 80px;
+    background-color: #f6f6f6;
+    color: #31313b;
+    border-radius: 2px;
+}
+
+/*fim*/
+
+/*navegacaoPortfolio*/
+.navegacaoPortEqui {
+    background-color: #dcdfe1;
+}
+
+.noVisive {
+    display: none;
+    visibility: hidden;
+}
+
+/*fim*/
+
+/*projetoFeito/Equipe*/
+.cardShadow {
+    box-shadow: 2px 2px 8px #333;
+}
+
+.cardWh {
+    width: 80%;
+    max-width: 500px;
+}
+
+.cardEw {
+    width: 90%;
+    height: 100vh;
+    max-height: 450px;
+    max-width: 350px;
+}
+
+.exemploWork img {
+    max-height: 220px;
+    height: 100vh;
+}
+
+/*fim*/
+
+/*sustentabilidade*/
+
+.sustenInfo {
+    width: 90%;
+    margin: 2% auto;
+    padding: 2% 1%;
+    border-bottom: 6px solid #31313b;
+    border-top: 6px solid #31313b;
+}
+
+.sustenInfo figure {
+    margin: 2% 0;
+}
+
+.sustenInfo figure img {
+    max-height: 500px;
+    width: 100%;
+    border-radius: 2px;
+}
+
+.sustenInfo figure figcaption {
+    padding: 2% 1.5%;
+    text-align: center;
+    color: #f6f6f6;
+    background-color: #31313b;
+}
+
+.sustenInfo .estrategia {
+    list-style: none;
+}
+
+/*fim*/
+
+/* empresaSobre */
+.infoEmpresa {
+    width: 90%;
+    margin-top: 1.5%;
+    margin-right: auto;
+    margin-bottom: 1.5%;
+    margin-left: auto;
+    border-radius: 2px;
+    background-color: #31313b;
+
+}
+
+.infoEmpresa .subTitulo {
+    border: none;
+    text-align: center;
+    background-color: #fff;
+    color: #31313b;
+    padding: 1.5%;
+}
+
+.infoEmpresa .figuraEmpresa {
+    width: 100%;
+    margin: 1.5% 0;
+    border-radius: 2px;
+    background-color: #fff;
+}
+
+.infoEmpresa .figuraEmpresa img {
+    max-height: 550px;
+    min-height: 325px;
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+
+}
+
+.infoEmpresa .figuraEmpresa figcaption {
+    margin: 1% auto 1% auto;
+    width: 90%;
+    padding: 2% 2%;
+    text-align: center;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+.infoEmpresa p {
+    text-align: justify;
+    text-justify: initial;
+    width: 90%;
+    margin: 0 auto 1.5% auto;
+    padding: 3% 5%;
+    background-color: #fff;
+    border-bottom: 4px solid #31313b;
+}
+
+/* fim */
+
+/*version do sistema*/
+.versao {
+    position: fixed;
+    bottom: 2px;
+    right: 5px;
+    padding: 0.4%;
+    width: 110px;
+    height: 30px;
+    border-radius: 2px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 1px #111;
+    background-color: rgba(245, 51, 51, 0.5);
+    visibility: visible;
+
+}
+
+.versao b {
+    font-weight: bold;
+}
+
+/* fim */
+
+/*Loginpage*/
+.bg-colorTransparent {
+    background-color: rgba(244, 247, 250, 0.5);
+}
+
+.bg-gradiente {
+    background-image: linear-gradient(#0776be, #4b9cd1);
+    background-size: 100vw 200vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bdLeftop {
+
+    border-left: 1px solid #fff;
+
+}
+
+.loginPage {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.loginPage .iconeLogin {
+    max-width: 180px;
+    max-height: 200px;
+    width: 100%;
+    height: 100vh;
+}
+
+.inputLogin {
+    max-width: 450px;
+    width: 23vw;
+}
+
+.fixedBottom {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+/*fim*/
+
+/*cabecarioUsuarioCliente*/
+.userBoxShadow {
+    box-shadow: 2px 2px 8px #000
+}
+
+.userBoxShadowTop {
+    box-shadow: -2px -2px 8px #000
+}
+
+.userNav .itenMenu {
+    display: inline-block;
+    max-width: 98px;
+    width: 80vw;
+}
+
+.iconeFoto {
+    max-height: 80px;
+    max-width: 90px;
+    height: 100vh;
+    width: 80vw;
+}
+
+.btnSair {
+    max-height: 65px;
+    max-width: 65px;
+    cursor: pointer;
+    height: 100vh;
+    width: 100%;
+    box-shadow: 2px 4px 6px #000;
+}
+
+.btnSair img {
+    height: 100%;
+    width: 100%;
+}
+
+.menuUser {
+    max-height: 65px;
+    max-width: 65px;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../Img/Icones/userMenu.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid #43528A;
+    position: absolute;
+    top: 3.5%;
+    right: 4%;
+    visibility: hidden;
+
+}
+
+.noItensUser {
+    visibility: visible;
+}
+
+.yesItensUser {
+    visibility: visible;
+}
+
+/*fim*/
+
+/*userDados*/
+
+.textColorPadrao {
+    color: #43528A;
+}
+
+.fotoUser {
+    width: 100%;
+    height: 70%;
+    background-image: url(../Img/imagens/paisagem.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fotoUser img {
+    width: 130px;
+    height: 130px;
+}
+
+/*fimUserDados*/
+
+.listaPedidos img {
+    width: 150px;
+    height: 150px;
+}
+
+/*fimDadosPedidos*/
+
+/*socioDados*/
+.dataSocio {
+    max-width: 530px;
+    max-height: 450px;
+    height: 100%;
+    width: 100%;
+}
+
+.fotoUserSocio {
+    height: 300px;
+    width: 100%;
+    background-image: url(../Img/imagens/userSocio.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.dadosProjeto {
+    max-width: 750px;
+    max-height: 495px;
+    height: 100%;
+    width: 100%;
+}
+
+.tHeadBg {
+    background-color: #43528A;
+    color: white;
+}
+
+/*fimSocioDados*/
+
+/*iframe Busca*/
+.buscaSearch {
+    border: none;
+    max-width: 1250px;
+    max-height: 750px;
+    width: 100%;
+    height: 100vh;
+}
+
+/*loadding*/
+.loadding {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    -webkit-animation: spin 2s linear infinite;
+    /* Safari */
+    animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
