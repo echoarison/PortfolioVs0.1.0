@@ -1,5 +1,5 @@
 function EmBreve(){
 
-	alert("Em será adicionado!");
+	alert("Em breve será adicionado!");
 
 }
