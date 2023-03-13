@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio/Equipe</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <link rel="stylesheet" href="../Css/bootstrap.css">
+    <link rel="stylesheet" href="../Css/style.css">
+    <link rel="stylesheet" href="../Css/styleResponsive.css">
+</head>
+
+<body class="bg-halfLight">
+    <!-- cabecario -->
+    <header class="container-fluid cabecario">
+
+        <div class="logoTipo noMarPad d-inline-block my-3 p-3 rounded">
+            <img class="#" src="../Img/logo/LogotipoNew.png" alt="logoTipo Empresa">
+        </div>
+
+        <nav class="menuNavegacao navResponse d-inline-block my-3 align-self-center">
+            <ul id="linksMenu" class="noItens">
+                <a href="../index.html" class="btn btn-outline-secondary buton">
+                    <li>Home</li>
+                </a>
+                <a href="#!" class="btn btn-outline-secondary buton">
+                    <li>Portfolio/Equipe</li>
+                </a>
+                <a href="../Pages/SAC.html" class="btn btn-outline-secondary buton">
+                    <li>SAC</li>
+                </a>
+                <a href="../Pages/Sustentabilidade.html" class="btn btn-outline-secondary buton">
+                    <li>Sustentabilidade</li>
+                </a>
+                <a href="../Pages/Sobre.html" class="btn btn-outline-secondary buton">
+                    <li>Sobre</li>
+                </a>
+                <a class="list-unstyled btn btn-outline-secondary buton loginRespon"
+                    href="../Pages/Login.html">Logar</a>
+            </ul>
+        </nav>
+
+        <div class="login d-inline-block">
+            <a class="list-unstyled buton" href="../Pages/Login.html"><button type="button"
+                    class="btn btn-outline-secondary buton">Logar</button></a>
+        </div>
+
+        <div class="menuRespBtn menuPso rounded"
+            onclick="menuResponsivo(document.getElementsByTagName('header')[0], document.getElementsByTagName('div')[3], document.getElementsByTagName('img')[0])">
+        </div>
+
+
+        <div class="d-inline-block posiLangue" onclick="tradutor(2)">
+            <div class="lenguagem"></div>
+          </div>
+    </header>
+    <!--cabecarioFim-->
+
+    <!-- navegacaoPortfolio -->
+    <nav class="navbar navbar-dark justify-content-center">
+        <form class="form-inline p-1">
+            <button class="btn btn-outline-secondary buton mx-2 btn-lg butonActvie botaoOne textEng" type="button"
+                onclick="navegacaoInfo(0);">Projeto</button>
+            <button class="btn btn-outline-secondary buton mx-2 btn-lg botaoOne textEng" type="button"
+                onclick="navegacaoInfo(1);">Equipe</button>
+        </form>
+    </nav>
+    <!--fimNavegacaoPortfolio-->
+
+    <!--projetoFeito-->
+    <section class="container-fluid mb-2 bg-light secaoInfo">
+        <div class="row justify-content-center p-3">
+            <div class="col-sm-8 col-md-8 col-lg my-2">
+                <article class="card cardShadow cardWh mx-auto">
+                    <figure class="exemploWork">
+                        <img src="../Img/portfolio/modelo.png" alt="trabalho_da_empresa" class="fotoSite card-img-top">
+                        <!--<figcaption class="tituloEnglish">Tela De Usuario Modelo</figcaption>-->
+                    </figure>
+
+                    <div class="card-body">
+                        <h3 class="card-title tituloEnglish">Modelo Social</h3>
+
+                        <p class="card-text textEng">
+                            Site Modelos foi desenvolvido para um cliente que queria uma rede social de pessoas
+                            iniciantes
+                            para postarem a suas fotos serem analisados pela empresa dela sendo criativos e sem uso de
+                            filtros só a beleza natural trazida para o mundo.
+                        </p>
+
+                        <button type="button" href="#" class="btn btn-secondary textEng" onclick="EmDesenvolvimento();">VER
+                            >>>></button>
+                    </div>
+
+                </article>
+            </div>
+
+            <div class="col-sm-8 col-md-8 col-lg my-2">
+                <article class="card cardShadow cardWh mx-auto">
+                    <figure class="exemploWork">
+                        <img src="../Img/portfolio/ani.png" alt="trabalho_da_empresa" class="fotoSite card-img-top">
+                        <!--<figcaption class="tituloEnglish">Tela De Usuario Modelo</figcaption>-->
+                    </figure>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Anime Reviwes</h3>
+
+                        <p class="card-text textEng">
+                            Anime Reviwes é um site que tem o foco para ser um ponto de críticas de várias animações
+                            japonesas, noticias sobre grandes obras no mundo otaku e sempre dão dicas de sites para
+                            poder assistir seus animes. Fora que os usarios pode deixa seus comentarios e likes.
+                        </p>
+                        <button type="button" href="#" class="btn btn-secondary textEng" onclick="EmDesenvolvimento();">VER
+                            >>>></button>
+                    </div>
+
+                </article>
+            </div>
+
+            <div class="col-sm-8 col-md-8 col-lg my-2">
+                <article class="card cardShadow cardWh mx-auto">
+                    <figure class="exemploWork">
+                        <img src="../Img/portfolio/fourHits.png" alt="trabalho_da_empresa"
+                            class="fotoSite card-img-top">
+                        <!--<figcaption class="tituloEnglish">Tela De Usuario Modelo</figcaption>-->
+                    </figure>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Four hits</h3>
+
+                        <p class="card-text textEng">
+                            FourHits é um site que foca em 4 gêneros musicais que é rock, sertanejo, rap e pop. Cada
+                            semana fala de 4 artistas de cada gênero musical, explicando sobre a história de origem, os
+                            clipes, musicas compostas e notícias aleatórias sobre o mundo da música.
+                        </p>
+                        <button type="button" href="#" class="btn btn-secondary textEng" onclick="EmDesenvolvimento();">VER
+                            >>>></button>
+                    </div>
+
+                </article>
+            </div>
+        </div>
+    </section>
+    <!-- fimProjetosFeito -->
+
+    <!-- Equipe -->
+    <section class="container-fluid mb-2 bg-light secaoInfo noVisive">
+        <div class="row justify-content-center">
+            <div class="col-sm-10 col-md-8 col-lg-8 col-xl my-3">
+                <article class="card cardShadow cardEw mx-auto">
+                    <figure class="exemploWork">
+                        <img src="../Img/portfolio/patric.jpeg" alt="Lider_Da_Sysmade" class="card-img-top">
+                    </figure>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Patric Alison</h4>
+
+                            <h5 class="text-left">Lider, Analista De Sistema, Front-End e Back-end</h5>
+
+                            <p class="text-left card-text">
+                                Some quick example text to build on the card title and make up the bulk of the card's
+                                content.
+                            </p>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-sm-10 col-md-10 col-lg-8 col-xl my-3">
+                <article class="card cardShadow cardEw mx-auto">
+                    <figure class="exemploWork">
+                        <img src="../Img/portfolio/amanda.jpeg" alt="Lider_Da_Sysmade" class="card-img-top">
+                    </figure>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Amanda</h4>
+
+                            <h5 class="text-left">Front-End</h5>
+
+                            <p class="text-left card-text">
+                                Some quick example text to build on the card title and make up the bulk of the card's
+                                content.
+                            </p>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-sm-10 col-md-8 col-lg-8 col-xl my-3">
+                <article class="card cardShadow cardEw mx-auto">
+                    <figure class="exemploWork">
+                        <img src="../Img/portfolio/henry.jpeg" alt="Lider_Da_Sysmade" class="card-img-top">
+                    </figure>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Henry</h4>
+
+                            <h5 class="text-left">Front-End</h5>
+
+                            <p class="text-left card-text">
+                                Some quick example text to build on the card title and make up the bulk of the card's
+                                content.
+                            </p>
+                    </div>
+                </article>
+            </div>
+
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-sm-10 col-md-8 col-lg-8 col-xl my-3">
+                <article class="card cardShadow cardEw mx-auto">
+                    <figure class="exemploWork">
+                        <img src="../Img/portfolio/igor.jpeg" alt="Lider_Da_Sysmade" class="card-img-top">
+                    </figure>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Igor</h4>
+
+                            <h5 class="text-left">Analista De Infroestrutura e Back-End</h5>
+
+                            <p class="text-left card-text">
+                                Some quick example text to build on the card title and make up the bulk of the card's
+                                content.
+                            </p>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-sm-10 col-md-8 col-lg-8 col-xl my-3">
+                <article class="card cardShadow cardEw mx-auto">
+                    <figure class="exemploWork">
+                        <img src="../Img/portfolio/izaias.jpeg" alt="Lider_Da_Sysmade" class="card-img-top">
+                    </figure>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Izaias</h4>
+
+                            <h5 class="text-left">Back-End</h5>
+
+                            <p class="text-left card-text">
+                                Some quick example text to build on the card title and make up the bulk of the card's
+                                content.
+                            </p>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-sm-10 col-md-8 col-lg-8 col-xl my-3">
+                <article class="card cardShadow cardEw mx-auto">
+                    <figure class="exemploWork">
+                        <img src="../Img/portfolio/samuel.jpeg" alt="Lider_Da_Sysmade" class="card-img-top">
+                    </figure>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Samuel Alencar</h4>
+
+                            <h5 class="text-left">Analista De Banco De Dados , Back-End e Front-End</h5>
+
+                            <p class="text-left card-text">
+                                Some quick example text to build on the card title and make up the bulk of the card's
+                                content.
+                            </p>
+                    </div>
+                </article>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Fim -->
+
+    <!-- rodape -->
+    <footer class="conteiner bg-light">
+
+        <div class="my-4 justify-content-center">
+
+            <div class="mx-auto conteudo">
+                <!-- logo empresa -->
+                <div class="logoFooter text-center">
+                    <img src="../Img/logo/LogotipoNew.png" class="logo" alt="empresa_logo_transparente">
+                </div>
+                <!-- fim -->
+            </div>
+        </div>
+
+        <div class="justify-content-center">
+            <div class="mx-auto conteudo">
+                <!-- membros da equipe -->
+                <div class="membros text-center">
+                    <p class="#">
+                        <span class="mt-3">&copy;Equipe SysMade:</span>
+                    <ul class="membrosLista text-center">
+                        <li class="d-inline-block teste">Patric</li>
+                        <li class="d-inline-block teste">Igor</li>
+                        <li class="d-inline-block teste">Amanda</li>
+                        <li class="d-inline-block teste">Giovana</li>
+                        <li class="d-inline-block teste">Izaias</li>
+                        <li class="d-inline-block teste">Henry</li>
+                        <li class="d-inline-block teste">Samuel</li>
+                    </ul>
+                    </p>
+                </div>
+                <!-- fim -->
+            </div>
+        </div>
+    </footer>
+
+    <!-- version do sistema -->
+    <div class="versao">
+        <p><b>ALPHA</b>V0.2.1</p>
+    </div>
+    <!-- fim -->
+</body>
+
+<!-- Script bootstrap and Jquery -->
+<script type="text/javascript" src="../Js/scriptTraducao.js"></script>
+<script type="text/javascript" src="../Js/scriptBack.js"></script>
+<script type="text/javascript" src="../Js/scriptStyle.js"></script>
+<script type="text/javascript" src="../Js/bootstrap.js"></script>
+<script type="text/javascript" src="../Js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../Js/jquery-3.5.1.min.js"></script>
+
+</html>
